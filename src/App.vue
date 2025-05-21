@@ -3,7 +3,11 @@ import Login from './views/Login.vue'
 </script>
 
 <template>
-  <Login/>
+  <div>
+   
+    <router-view /> <!-- nơi hiện nội dung -->
+  </div>
 </template>
+
 
 
